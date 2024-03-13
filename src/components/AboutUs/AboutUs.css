@@ -1,0 +1,18 @@
+.counter {
+  color: #0a2b1e;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.counter_title {
+  color: #0a2b1e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1023px) {
+  .mediaChanges .about-us-counter{
+    width: fit-content;
+    margin: auto;
+  }
+}

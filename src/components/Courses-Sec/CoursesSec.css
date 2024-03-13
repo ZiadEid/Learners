@@ -1,0 +1,41 @@
+.enroll a {
+  color: #17bf9e;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.enroll a:hover {
+  color: #0a58ca;
+}
+
+.course_title {
+  line-height: 2rem;
+}
+
+.lessons, .students, .rating {
+  color: #0a2b1e;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.lessons i, .students i, .rating i {
+  font-weight: 400;
+}
+
+@media (max-width: 1023px) {
+  .course-top-left {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .course-top-left {
+    width: 100% !important;
+  }
+
+  .mediaButton {
+    width: 100% !important;
+  }
+}

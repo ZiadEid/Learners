@@ -1,0 +1,29 @@
+.newsletter {
+  background-color: #17bf9e;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.subscribe {
+  width: 45%;
+}
+
+.subscribe input {
+  outline: none;
+}
+
+@media (max-width: 1023px) {
+  .subscribe {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .subscribe {
+    width: 95%;
+  }
+  .subscribe input {
+    padding: 0 0 0 8px !important;
+    text-align: left !important;
+  }
+}

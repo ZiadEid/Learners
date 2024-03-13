@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  .testimonial_wrapper {
+    flex-direction: column;
+  }
+  .testimonial_img {
+    width: 100% !important;
+  }
+  .testimonial_content {
+    width: 100% !important;
+  }
+}

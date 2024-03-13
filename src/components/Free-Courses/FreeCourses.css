@@ -1,0 +1,15 @@
+.free_course_img {
+  z-index: 999;
+}
+
+.free_btn {
+  font-size: 1rem;
+  padding: 4px 25px !important;
+  bottom: -20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.free_course_details h6 {
+  line-height: 30px;
+}
